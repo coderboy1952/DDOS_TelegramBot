@@ -8,7 +8,7 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7082385603:AAHRC9cW0z16K_ty7ciJf7ieSVEUPYtGHT4')
+bot = telebot.TeleBot('7082385603:AAEPIVRKF02Qi4JtrVF_90zPlHMW1LzZC6M')
 
 # Admin user IDs
 admin_id = ["6797220753"]
@@ -320,7 +320,7 @@ def handle_bgmi(message):
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:- @mesh213")
+        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command.")
 
     bot.reply_to(message, response)
 
